@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: #eee;
+}
+*{
+    font-family:"Hanken Grotesk";
+    caret-color: transparent;
+}
+#all{
+    display: flex;
+    padding: 90px;
+
+}
+#result{
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background: hsl(241, 81%, 54%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    transform: translate(10%);
+}
+#result > :first-child{
+    opacity: 0.5;
+    /* margin: 0; */
+}
+h1:nth-child(3){
+    margin-bottom: 0;
+}
+p:nth-child(4){
+    opacity: 0.7;
+    width: 230px;
+    margin-left: 35px;
+    margin-top: 0;
+}
+#degrey{
+    height: 150px;
+    width: 150px;
+    background: hsla(256, 72%, 46%, 1);
+    border-radius:100%;
+    display: block;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    box-shadow: inset 0 10px 30px rgba(0,0,0,0.3);
+}
+#degrey h1 ,p{
+    margin-bottom: 0;
+}
+#degrey h1{
+    font-size: 50px;
+    padding-top: 40px;
+}
+#degrey p{
+    margin-top: -5px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+/*  */
+#summry{
+    background: white;
+    width: 300px;
+    height: 410px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    
+    /* position: absolute;
+    top: 15%;
+    left: 58%; */
+    border-radius: 20px;
+    /* z-index: -1; */
+    display: block;
+    align-content: center;
+}
+
+.marks{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+.marks:nth-child(2) h4{
+    color: red;
+    
+}
+.marks:nth-child(2){
+    background: hsl(0deg 100% 67% / 40%);
+}
+.marks:nth-child(3) h4{
+    color: rgb(187, 122, 1);
+}
+.marks:nth-child(3){
+    background: hsl(39deg 100% 56% / 52%);
+}
+.marks:nth-child(4) h4{
+    color: green;
+}
+.marks:nth-child(4){
+    background: hsla(166, 100%, 37%, 0.313);
+}
+.marks:nth-child(5) h4{
+    color: blue;
+}
+.marks:nth-child(5){
+    background: hsla(234, 85%, 45%, 0.231)
+}
+
+.marks p{
+    align-self: center;
+    font-weight: lighter;
+}
+span{
+    font-weight: 900;
+    opacity: 1 !important;
+}
+button{
+    background: hsl(224, 30%, 27%);
+    color: white;
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 1px 10px 30px rgba(1, 1, 71, 0.949);
+}
+button:hover{
+    background:hsla(256, 72%, 46%, 1) ;
+    box-shadow: 1px 10px 30px rgba(3, 3, 136, 0.949);
+    
+}
+
