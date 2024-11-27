@@ -137,3 +137,33 @@ button:hover{
     
 }
 
+@media (min-width:375px) and (max-width:755px) {
+    body{
+        flex-wrap: wrap;
+        align-content: flex-start;
+        padding: 0;
+        margin: 0;
+        background: white;
+    }
+    #all{
+        display: block; 
+        padding: 0;   
+    }
+    #result{
+    width: 330px;
+    height: 400px;
+    border-radius: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 50px;
+    transform: translate(0%, -1%);
+    }
+        p:nth-child(4) {
+            width: 290px;
+            margin-left: 20px;
+        }
+    #summry {
+    padding-left: 30px;
+        }
+}
+
+
